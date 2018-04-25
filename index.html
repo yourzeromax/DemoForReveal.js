@@ -24,9 +24,32 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-				<section>Slide 3</section>
+				<section data-transition="room">Slide 1</section>
+				<section data-transition="room">Slide 2</section>
+				<section data-transition="room">
+					<h1>this is a real title</h1>
+					<p>this is a title</p>
+				</section>
+				<section data-transition="room">
+					<div  style="background-color: #ff0000">
+						<p style="color: #000000">test for a div in section</p>
+					</div>
+					<video src="movies/movie.mp4" controls width="200px" height="150px" autoplay="autoplay"></video>
+				</section>
+			</div>
+
+				<div class="slides">
+				<section data-transition="room" class = "slides">Slide a</section>
+				<section data-transition="room">Slide b</section>
+				<section data-transition="room">
+					<h1 class="fragment">this is a real titlec</h1>
+					<p class="fragment">this is a project-1</p>
+					<p class="fragment">this is a project-2</p>
+					<p class="fragment">this is a project-3</p>
+				</section>
+				<section data-transition="room">
+					<video src="movies/movie.mp4" controls width="200px" height="150px" autoplay="autoplay"></video>
+				</section>
 			</div>
 		</div>
 
